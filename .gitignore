@@ -1,0 +1,36 @@
+# Python environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter and test caches
+.ipynb_checkpoints/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+secrets.*
+*.pem
+*.key
+
+# Generated model artifacts
+artifacts/*
+!artifacts/.gitkeep
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.model

@@ -1,0 +1,1 @@
+"""Application components reserved for a later development phase."""
