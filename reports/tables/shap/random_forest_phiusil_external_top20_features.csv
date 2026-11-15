@@ -1,0 +1,21 @@
+rank,feature,mean_abs_shap,mean_shap,correlation_with_shap,effect_direction
+1,protocol_type,0.071657,0.008849,-0.959,Higher -> Legitimate
+2,is_https,0.070307,0.010081,-0.957,Higher -> Legitimate
+3,path_length,0.067637,-0.021736,0.45,Higher -> Phishing
+4,max_path_segment_length,0.067476,-0.058687,0.578,Higher -> Phishing
+5,path_segment_count,0.057102,-0.048346,0.742,Higher -> Phishing
+6,avg_path_segment_length,0.051278,-0.045359,0.626,Higher -> Phishing
+7,slash_count,0.046573,-0.02624,0.634,Higher -> Phishing
+8,max_consecutive_repeated_char,0.042735,-0.016453,-0.905,Higher -> Legitimate
+9,is_http,0.037592,0.01464,0.946,Higher -> Phishing
+10,is_path_empty,0.036279,-0.032457,-0.925,Higher -> Legitimate
+11,dot_count,0.03008,-0.023688,0.664,Higher -> Phishing
+12,digit_ratio,0.024516,-0.019919,0.792,Higher -> Phishing
+13,subdomain_count,0.015504,-0.012155,-0.406,Higher -> Legitimate
+14,digit_count,0.015325,-0.010875,0.567,Higher -> Phishing
+15,special_char_count,0.012148,-0.007928,0.413,Higher -> Phishing
+16,hostname_has_digits,0.004329,-0.003287,0.816,Higher -> Phishing
+17,is_ip_address,0.004221,-0.0042,0.274,Higher -> Phishing
+18,hostname_length,0.003995,-0.001931,0.391,Higher -> Phishing
+19,path_has_file_extension,0.003724,-0.002062,0.83,Higher -> Phishing
+20,hostname_label_count,0.003666,-0.001461,-0.306,Higher -> Legitimate

@@ -1,0 +1,85 @@
+attack_id,model,partition,base_sample_count,base_phish_count,base_tp,base_recall,adv_phish_count,adv_tp,adv_recall
+CAT-01A,Random Forest,LegitPhish_Internal_Test,1006,998,998,1.0,998,998,1.0
+CAT-01A,XGBoost,LegitPhish_Internal_Test,1006,998,998,1.0,998,998,1.0
+CAT-01B,Random Forest,LegitPhish_Internal_Test,664,656,656,1.0,656,653,0.9954268292682927
+CAT-01B,XGBoost,LegitPhish_Internal_Test,664,656,656,1.0,656,653,0.9954268292682927
+CAT-01C,Random Forest,LegitPhish_Internal_Test,1006,998,998,1.0,998,998,1.0
+CAT-01C,XGBoost,LegitPhish_Internal_Test,1006,998,998,1.0,998,998,1.0
+CAT-02A,Random Forest,LegitPhish_Internal_Test,1981,981,981,1.0,981,981,1.0
+CAT-02A,XGBoost,LegitPhish_Internal_Test,1981,981,981,1.0,981,981,1.0
+CAT-02B,Random Forest,LegitPhish_Internal_Test,1057,57,57,1.0,57,57,1.0
+CAT-02B,XGBoost,LegitPhish_Internal_Test,1057,57,57,1.0,57,57,1.0
+CAT-02C,Random Forest,LegitPhish_Internal_Test,1006,998,998,1.0,998,998,1.0
+CAT-02C,XGBoost,LegitPhish_Internal_Test,1006,998,998,1.0,998,998,1.0
+CAT-03A,Random Forest,LegitPhish_Internal_Test,1055,56,56,1.0,56,56,1.0
+CAT-03A,XGBoost,LegitPhish_Internal_Test,1055,56,56,1.0,56,56,1.0
+CAT-03B,Random Forest,LegitPhish_Internal_Test,0,0,0,,0,0,
+CAT-03B,XGBoost,LegitPhish_Internal_Test,0,0,0,,0,0,
+CAT-04A,Random Forest,LegitPhish_Internal_Test,57,57,57,1.0,57,57,1.0
+CAT-04A,XGBoost,LegitPhish_Internal_Test,57,57,57,1.0,57,57,1.0
+CAT-04B,Random Forest,LegitPhish_Internal_Test,1000,0,0,,0,0,
+CAT-04B,XGBoost,LegitPhish_Internal_Test,1000,0,0,,0,0,
+CAT-05A,Random Forest,LegitPhish_Internal_Test,87,79,79,1.0,79,79,1.0
+CAT-05A,XGBoost,LegitPhish_Internal_Test,87,79,79,1.0,79,79,1.0
+CAT-05B,Random Forest,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,1000,1.0
+CAT-05B,XGBoost,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,1000,1.0
+CAT-05C,Random Forest,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,1000,1.0
+CAT-05C,XGBoost,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,1000,1.0
+CAT-06A,Random Forest,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,1000,1.0
+CAT-06A,XGBoost,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,1000,1.0
+CAT-06B,Random Forest,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,1000,1.0
+CAT-06B,XGBoost,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,1000,1.0
+CAT-07A,Random Forest,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,993,0.993
+CAT-07A,XGBoost,LegitPhish_Internal_Test,2000,1000,1000,1.0,1000,993,0.993
+CAT-07B,Random Forest,LegitPhish_Internal_Test,10,10,10,1.0,10,10,1.0
+CAT-07B,XGBoost,LegitPhish_Internal_Test,10,10,10,1.0,10,10,1.0
+CAT-08A,Random Forest,LegitPhish_Internal_Test,943,943,943,1.0,943,943,1.0
+CAT-08A,XGBoost,LegitPhish_Internal_Test,943,943,943,1.0,943,943,1.0
+CAT-08B,Random Forest,LegitPhish_Internal_Test,943,943,943,1.0,943,943,1.0
+CAT-08B,XGBoost,LegitPhish_Internal_Test,943,943,943,1.0,943,943,1.0
+CAT-09A,Random Forest,LegitPhish_Internal_Test,1138,138,138,1.0,138,138,1.0
+CAT-09A,XGBoost,LegitPhish_Internal_Test,1138,138,138,1.0,138,138,1.0
+CAT-09B,Random Forest,LegitPhish_Internal_Test,1006,998,998,1.0,998,988,0.9899799599198397
+CAT-09B,XGBoost,LegitPhish_Internal_Test,1006,998,998,1.0,998,989,0.9909819639278558
+CAT-01A,Random Forest,PhiUSIIL_External_Disjoint,280,280,272,0.9714285714285714,280,279,0.9964285714285714
+CAT-01A,XGBoost,PhiUSIIL_External_Disjoint,280,280,266,0.95,280,269,0.9607142857142857
+CAT-01B,Random Forest,PhiUSIIL_External_Disjoint,155,155,152,0.9806451612903225,155,145,0.9354838709677419
+CAT-01B,XGBoost,PhiUSIIL_External_Disjoint,155,155,150,0.967741935483871,155,134,0.864516129032258
+CAT-01C,Random Forest,PhiUSIIL_External_Disjoint,280,280,272,0.9714285714285714,280,277,0.9892857142857143
+CAT-01C,XGBoost,PhiUSIIL_External_Disjoint,280,280,266,0.95,280,269,0.9607142857142857
+CAT-02A,Random Forest,PhiUSIIL_External_Disjoint,2000,1000,944,0.944,1000,945,0.945
+CAT-02A,XGBoost,PhiUSIIL_External_Disjoint,2000,1000,424,0.424,1000,425,0.425
+CAT-02B,Random Forest,PhiUSIIL_External_Disjoint,1989,989,933,0.9433771486349848,989,935,0.9453993933265925
+CAT-02B,XGBoost,PhiUSIIL_External_Disjoint,1989,989,413,0.41759352881698686,989,930,0.9403437815975733
+CAT-02C,Random Forest,PhiUSIIL_External_Disjoint,280,280,272,0.9714285714285714,280,271,0.9678571428571429
+CAT-02C,XGBoost,PhiUSIIL_External_Disjoint,280,280,266,0.95,280,269,0.9607142857142857
+CAT-03A,Random Forest,PhiUSIIL_External_Disjoint,1986,987,931,0.9432624113475178,987,932,0.9442755825734549
+CAT-03A,XGBoost,PhiUSIIL_External_Disjoint,1986,987,411,0.41641337386018235,987,411,0.41641337386018235
+CAT-03B,Random Forest,PhiUSIIL_External_Disjoint,1,1,1,1.0,1,0,0.0
+CAT-03B,XGBoost,PhiUSIIL_External_Disjoint,1,1,1,1.0,1,0,0.0
+CAT-04A,Random Forest,PhiUSIIL_External_Disjoint,989,989,933,0.9433771486349848,989,962,0.9726996966632963
+CAT-04A,XGBoost,PhiUSIIL_External_Disjoint,989,989,413,0.41759352881698686,989,501,0.506572295247725
+CAT-04B,Random Forest,PhiUSIIL_External_Disjoint,1000,0,0,,0,0,
+CAT-04B,XGBoost,PhiUSIIL_External_Disjoint,1000,0,0,,0,0,
+CAT-05A,Random Forest,PhiUSIIL_External_Disjoint,196,196,191,0.9744897959183674,196,196,1.0
+CAT-05A,XGBoost,PhiUSIIL_External_Disjoint,196,196,187,0.9540816326530612,196,195,0.9948979591836735
+CAT-05B,Random Forest,PhiUSIIL_External_Disjoint,2000,1000,944,0.944,1000,977,0.977
+CAT-05B,XGBoost,PhiUSIIL_External_Disjoint,2000,1000,424,0.424,1000,972,0.972
+CAT-05C,Random Forest,PhiUSIIL_External_Disjoint,2000,1000,944,0.944,1000,965,0.965
+CAT-05C,XGBoost,PhiUSIIL_External_Disjoint,2000,1000,424,0.424,1000,421,0.421
+CAT-06A,Random Forest,PhiUSIIL_External_Disjoint,2000,1000,944,0.944,1000,973,0.973
+CAT-06A,XGBoost,PhiUSIIL_External_Disjoint,2000,1000,424,0.424,1000,513,0.513
+CAT-06B,Random Forest,PhiUSIIL_External_Disjoint,2000,1000,944,0.944,1000,976,0.976
+CAT-06B,XGBoost,PhiUSIIL_External_Disjoint,2000,1000,424,0.424,1000,971,0.971
+CAT-07A,Random Forest,PhiUSIIL_External_Disjoint,2000,1000,944,0.944,1000,839,0.839
+CAT-07A,XGBoost,PhiUSIIL_External_Disjoint,2000,1000,424,0.424,1000,847,0.847
+CAT-07B,Random Forest,PhiUSIIL_External_Disjoint,56,56,54,0.9642857142857143,56,54,0.9642857142857143
+CAT-07B,XGBoost,PhiUSIIL_External_Disjoint,56,56,55,0.9821428571428571,56,55,0.9821428571428571
+CAT-08A,Random Forest,PhiUSIIL_External_Disjoint,11,11,11,1.0,11,11,1.0
+CAT-08A,XGBoost,PhiUSIIL_External_Disjoint,11,11,11,1.0,11,11,1.0
+CAT-08B,Random Forest,PhiUSIIL_External_Disjoint,11,11,11,1.0,11,11,1.0
+CAT-08B,XGBoost,PhiUSIIL_External_Disjoint,11,11,11,1.0,11,11,1.0
+CAT-09A,Random Forest,PhiUSIIL_External_Disjoint,1999,999,943,0.943943943943944,999,966,0.9669669669669669
+CAT-09A,XGBoost,PhiUSIIL_External_Disjoint,1999,999,423,0.42342342342342343,999,496,0.4964964964964965
+CAT-09B,Random Forest,PhiUSIIL_External_Disjoint,292,292,283,0.9691780821917808,292,219,0.75
+CAT-09B,XGBoost,PhiUSIIL_External_Disjoint,292,292,277,0.9486301369863014,292,214,0.7328767123287672

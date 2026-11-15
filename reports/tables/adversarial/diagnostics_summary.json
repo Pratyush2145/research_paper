@@ -1,0 +1,350 @@
+{
+  "6.1_canonicalization": {
+    "rf": {
+      "n_audited": 500,
+      "max_feature_drift": 4.0,
+      "mean_feature_drift": 0.0008894823840819299,
+      "prediction_flip_rate": 0.0
+    },
+    "xgb": {
+      "n_audited": 500,
+      "max_feature_drift": 4.0,
+      "mean_feature_drift": 0.0008894823840819299,
+      "prediction_flip_rate": 0.0
+    }
+  },
+  "6.2_unicode_normalization": {
+    "rf": {
+      "NFC": {
+        "max_drift": 0.0,
+        "mean_drift": 0.0,
+        "flip_rate": 0.0
+      },
+      "NFD": {
+        "max_drift": 0.0,
+        "mean_drift": 0.0,
+        "flip_rate": 0.0
+      },
+      "NFKC": {
+        "max_drift": 0.0,
+        "mean_drift": 0.0,
+        "flip_rate": 0.0
+      },
+      "NFKD": {
+        "max_drift": 0.0,
+        "mean_drift": 0.0,
+        "flip_rate": 0.0
+      }
+    },
+    "xgb": {
+      "NFC": {
+        "max_drift": 0.0,
+        "mean_drift": 0.0,
+        "flip_rate": 0.0
+      },
+      "NFD": {
+        "max_drift": 0.0,
+        "mean_drift": 0.0,
+        "flip_rate": 0.0
+      },
+      "NFKC": {
+        "max_drift": 0.0,
+        "mean_drift": 0.0,
+        "flip_rate": 0.0
+      },
+      "NFKD": {
+        "max_drift": 0.0,
+        "mean_drift": 0.0,
+        "flip_rate": 0.0
+      }
+    }
+  },
+  "6.3_feature_perturbation_scans": {
+    "rf": {
+      "path_length": {
+        "-0.50": {
+          "flip_rate": 0.012,
+          "mean_phish_prob_shift": -0.01758167762788684
+        },
+        "-0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 7.421375422204146e-05
+        },
+        "-0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -7.20085503814698e-05
+        },
+        "+0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 1.1430871865654724e-06
+        },
+        "+0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0002358066482631736
+        },
+        "+0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0005230888930372209
+        }
+      },
+      "max_path_segment_length": {
+        "-0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.0005844232299347679
+        },
+        "-0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.0007006539114779489
+        },
+        "-0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.0001967848638588977
+        },
+        "+0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0003544206349206387
+        },
+        "+0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0007617777777777804
+        },
+        "+0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0015112657653886948
+        }
+      },
+      "digit_ratio": {
+        "-0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0008295110278133429
+        },
+        "-0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.00023099835796387875
+        },
+        "-0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -3.2823754789274194e-05
+        },
+        "+0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.00010728439343216479
+        },
+        "+0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.00010201455216232653
+        },
+        "+0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.00014725894187223558
+        }
+      },
+      "url_entropy": {
+        "-0.50": {
+          "flip_rate": 0.004,
+          "mean_phish_prob_shift": -0.005872314690373862
+        },
+        "-0.25": {
+          "flip_rate": 0.004,
+          "mean_phish_prob_shift": -0.005663314690373863
+        },
+        "-0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0035553936870273235
+        },
+        "+0.10": {
+          "flip_rate": 0.002,
+          "mean_phish_prob_shift": 0.002747696823898323
+        },
+        "+0.25": {
+          "flip_rate": 0.002,
+          "mean_phish_prob_shift": 0.008635922903414504
+        },
+        "+0.50": {
+          "flip_rate": 0.002,
+          "mean_phish_prob_shift": 0.008685684808176412
+        }
+      }
+    },
+    "xgb": {
+      "path_length": {
+        "-0.50": {
+          "flip_rate": 0.042,
+          "mean_phish_prob_shift": -0.03915612772107124
+        },
+        "-0.25": {
+          "flip_rate": 0.04,
+          "mean_phish_prob_shift": -0.03997823968529701
+        },
+        "-0.10": {
+          "flip_rate": 0.04,
+          "mean_phish_prob_shift": -0.039374757558107376
+        },
+        "+0.10": {
+          "flip_rate": 0.002,
+          "mean_phish_prob_shift": -0.0004529535654000938
+        },
+        "+0.25": {
+          "flip_rate": 0.004,
+          "mean_phish_prob_shift": -0.001441517728380859
+        },
+        "+0.50": {
+          "flip_rate": 0.004,
+          "mean_phish_prob_shift": -0.0015491499798372388
+        }
+      },
+      "max_path_segment_length": {
+        "-0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.00021159219613764435
+        },
+        "-0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0002476545632816851
+        },
+        "-0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.00034965158556587994
+        },
+        "+0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.00010499465133761987
+        },
+        "+0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0007311708759516478
+        },
+        "+0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.0011176032712683082
+        }
+      },
+      "digit_ratio": {
+        "-0.50": {
+          "flip_rate": 0.012,
+          "mean_phish_prob_shift": -0.0037514781579375267
+        },
+        "-0.25": {
+          "flip_rate": 0.004,
+          "mean_phish_prob_shift": -0.0014996244572103024
+        },
+        "-0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": -0.00013516854960471392
+        },
+        "+0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.0003615767927840352
+        },
+        "+0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.0008573306840844452
+        },
+        "+0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.0011220815358683467
+        }
+      },
+      "url_entropy": {
+        "-0.50": {
+          "flip_rate": 0.004,
+          "mean_phish_prob_shift": 0.007042553275823593
+        },
+        "-0.25": {
+          "flip_rate": 0.004,
+          "mean_phish_prob_shift": 0.007057489361613989
+        },
+        "-0.10": {
+          "flip_rate": 0.002,
+          "mean_phish_prob_shift": 0.0026343022473156452
+        },
+        "+0.10": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.0031151962466537952
+        },
+        "+0.25": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.006359965540468693
+        },
+        "+0.50": {
+          "flip_rate": 0.0,
+          "mean_phish_prob_shift": 0.008660714142024517
+        }
+      }
+    }
+  },
+  "6.4_calibration_drift_cat01a": {
+    "rf": {
+      "brier_orig": 0.03393222771652926,
+      "brier_adv": 0.05291055840262742,
+      "delta_brier": 0.01897833068609816,
+      "ece_orig": 0.11153531223399563,
+      "ece_adv": 0.19014024188719297,
+      "delta_ece": 0.07860492965319735
+    },
+    "xgb": {
+      "brier_orig": 0.04001885162369423,
+      "brier_adv": 0.03050402712820109,
+      "delta_brier": -0.009514824495493138,
+      "ece_orig": 0.06707023658922738,
+      "ece_adv": 0.06958766111305781,
+      "delta_ece": 0.0025174245238304277
+    }
+  },
+  "6.5_ood_structural_boundaries": {
+    "rf": {
+      "userinfo_token": {
+        "url": "https://admin:secretPass123@login.portal-security.com/auth",
+        "prediction": "Phishing (0)",
+        "prob_phish": 0.9383373015873017
+      },
+      "extreme_query_length": {
+        "url": "https://portal.bank.com/service?param=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+        "prediction": "Legitimate (1)",
+        "prob_phish": 0.4157022454542886
+      },
+      "zero_path_https_root": {
+        "url": "https://secure-login-account-update.com/",
+        "prediction": "Phishing (0)",
+        "prob_phish": 0.9091353427895983
+      },
+      "deep_nested_empty_segments": {
+        "url": "https://example.com///////login/////verify",
+        "prediction": "Phishing (0)",
+        "prob_phish": 0.7110530761290075
+      },
+      "excessive_subdomains": {
+        "url": "https://sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub....",
+        "prediction": "Phishing (0)",
+        "prob_phish": 0.7863809523809523
+      }
+    },
+    "xgb": {
+      "userinfo_token": {
+        "url": "https://admin:secretPass123@login.portal-security.com/auth",
+        "prediction": "Phishing (0)",
+        "prob_phish": 0.9970213174819946
+      },
+      "extreme_query_length": {
+        "url": "https://portal.bank.com/service?param=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+        "prediction": "Legitimate (1)",
+        "prob_phish": 0.1736600399017334
+      },
+      "zero_path_https_root": {
+        "url": "https://secure-login-account-update.com/",
+        "prediction": "Phishing (0)",
+        "prob_phish": 0.998759388923645
+      },
+      "deep_nested_empty_segments": {
+        "url": "https://example.com///////login/////verify",
+        "prediction": "Phishing (0)",
+        "prob_phish": 0.9385648965835571
+      },
+      "excessive_subdomains": {
+        "url": "https://sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub.sub....",
+        "prediction": "Phishing (0)",
+        "prob_phish": 0.9443152546882629
+      }
+    }
+  }
+}

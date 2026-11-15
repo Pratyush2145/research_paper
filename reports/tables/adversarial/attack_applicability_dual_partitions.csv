@@ -1,0 +1,22 @@
+category_id,name,tier,internal_cand,internal_app,internal_tx,internal_app_rate,external_cand,external_app,external_tx,external_app_rate
+CAT-01A,Path Unreserved Encoding,Tier A,2000,1006,1006,0.503,2000,280,280,0.14
+CAT-01B,Path Reserved Char Encoding,Tier B,2000,664,664,0.332,2000,155,155,0.0775
+CAT-01C,Double Percent-Encoding,Tier C,2000,1006,1006,0.503,2000,280,280,0.14
+CAT-02A,Scheme Case Variation,Tier A,2000,1981,1981,0.9905,2000,2000,2000,1.0
+CAT-02B,Hostname Case Variation,Tier A,2000,1057,1057,0.5285,2000,1989,1989,0.9945
+CAT-02C,Redundant Slashes,Tier B,2000,1006,1006,0.503,2000,280,280,0.14
+CAT-03A,Cyrillic Lookalike Homoglyph,Tier C,2000,1055,1055,0.5275,2000,1986,1986,0.993
+CAT-03B,Punycode Equivalence,Tier A,2000,0,0,0.0,2000,1,1,0.0005
+CAT-04A,Subdomain Prepending (Phishing),Tier B,2000,57,57,0.0285,2000,989,989,0.4945
+CAT-04B,Subdomain Prepending (Benign),Tier C,2000,1000,1000,0.5,2000,1000,1000,0.5
+CAT-05A,Dot-Slash Redundancy,Tier B,2000,87,87,0.0435,2000,196,196,0.098
+CAT-05B,Path Directory Padding,Tier B,2000,2000,2000,1.0,2000,2000,2000,1.0
+CAT-05C,Dummy Anchor Fragment,Tier A,2000,2000,2000,1.0,2000,2000,2000,1.0
+CAT-06A,Tracking Parameter Injection,Tier B,2000,2000,2000,1.0,2000,2000,2000,1.0
+CAT-06B,Entropy Noise Query Padding,Tier B,2000,2000,2000,1.0,2000,2000,2000,1.0
+CAT-07A,Security Keyword Stuffing,Tier B,2000,2000,2000,1.0,2000,2000,2000,1.0
+CAT-07B,Suspicious Keyword Stripping,Tier B,2000,10,10,0.005,2000,56,56,0.028
+CAT-08A,Standard IPv4 Baseline,Tier A,2000,943,943,0.4715,2000,11,11,0.0055
+CAT-08B,Alternative IP Format (DWORD),Tier C,2000,943,943,0.4715,2000,11,11,0.0055
+CAT-09A,Standard Port Injection,Tier A,2000,1138,1138,0.569,2000,1999,1999,0.9995
+CAT-09B,Apex Path Truncation,Tier C,2000,1006,1006,0.503,2000,292,292,0.146

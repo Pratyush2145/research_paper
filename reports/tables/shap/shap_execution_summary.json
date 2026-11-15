@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "timestamp": "2026-11-15 09:55:49",
+    "n_samples": 1000,
+    "random_state": 42,
+    "sampling_metadata": {
+      "random_state": 42,
+      "n_features": 68,
+      "background_sample": {
+        "source": "LegitPhish Training Split",
+        "n_records": 1000,
+        "n_unique_domains": 871,
+        "phishing_count": 637,
+        "legitimate_count": 363,
+        "phishing_percentage": 63.7
+      },
+      "internal_explanation_sample": {
+        "source": "LegitPhish Test Split (Domain-Disjoint)",
+        "n_records": 1000,
+        "n_unique_domains": 861,
+        "phishing_count": 622,
+        "legitimate_count": 378,
+        "phishing_percentage": 62.2
+      },
+      "external_explanation_sample": {
+        "source": "PhiUSIIL Entire-Primary-Dataset-Disjoint",
+        "n_records": 1000,
+        "n_unique_domains": 964,
+        "phishing_count": 430,
+        "legitimate_count": 570,
+        "phishing_percentage": 43.0
+      }
+    }
+  },
+  "cross_model_comparison": {
+    "internal_spearman_rank_correlation": 0.8271,
+    "internal_spearman_p_value": 3.5871681274834705e-18,
+    "table_csv": "reports/tables/shap/random_forest_vs_xgboost_internal_shap.csv"
+  },
+  "models": {
+    "Random Forest": {
+      "generalization_metrics": {
+        "model_name": "Random Forest",
+        "n_features": 68,
+        "spearman_rank_correlation": 0.9906,
+        "spearman_p_value": 1.0269390286148993e-58,
+        "kendall_tau": 0.9387,
+        "kendall_p_value": 6.225440260054928e-28,
+        "top10_jaccard_overlap": 1.0,
+        "top10_shared_features": [
+          "avg_path_segment_length",
+          "is_http",
+          "is_https",
+          "is_path_empty",
+          "max_consecutive_repeated_char",
+          "max_path_segment_length",
+          "path_length",
+          "path_segment_count",
+          "protocol_type",
+          "slash_count"
+        ],
+        "top20_jaccard_overlap": 0.8182,
+        "top20_shared_features": [
+          "avg_path_segment_length",
+          "digit_count",
+          "digit_ratio",
+          "dot_count",
+          "hostname_has_digits",
+          "is_http",
+          "is_https",
+          "is_ip_address",
+          "is_path_empty",
+          "max_consecutive_repeated_char",
+          "max_path_segment_length",
+          "path_has_file_extension",
+          "path_length",
+          "path_segment_count",
+          "protocol_type",
+          "slash_count",
+          "special_char_count",
+          "subdomain_count"
+        ],
+        "table_csv": "reports/tables/shap/random_forest_generalization_feature_comparison.csv",
+        "comparison_plot": "reports/figures/shap/random_forest_generalization_top15_internal_vs_external.png"
+      },
+      "local_cases_internal_count": 6,
+      "local_cases_external_count": 5
+    },
+    "XGBoost": {
+      "generalization_metrics": {
+        "model_name": "XGBoost",
+        "n_features": 68,
+        "spearman_rank_correlation": 0.991,
+        "spearman_p_value": 2.10556661096949e-59,
+        "kendall_tau": 0.9448,
+        "kendall_p_value": 1.0504848543636152e-23,
+        "top10_jaccard_overlap": 0.8182,
+        "top10_shared_features": [
+          "alpha_ratio",
+          "dot_count",
+          "is_http",
+          "is_https",
+          "max_consecutive_repeated_char",
+          "path_length",
+          "path_segment_count",
+          "slash_count",
+          "subdomain_count"
+        ],
+        "top20_jaccard_overlap": 0.8182,
+        "top20_shared_features": [
+          "alpha_count",
+          "alpha_ratio",
+          "avg_hostname_label_length",
+          "digit_ratio",
+          "dot_count",
+          "hostname_length",
+          "is_http",
+          "is_https",
+          "max_consecutive_repeated_char",
+          "max_path_segment_length",
+          "path_has_file_extension",
+          "path_length",
+          "path_segment_count",
+          "slash_count",
+          "special_char_ratio",
+          "subdomain_count",
+          "url_entropy",
+          "url_length"
+        ],
+        "table_csv": "reports/tables/shap/xgboost_generalization_feature_comparison.csv",
+        "comparison_plot": "reports/figures/shap/xgboost_generalization_top15_internal_vs_external.png"
+      },
+      "local_cases_internal_count": 5,
+      "local_cases_external_count": 5
+    }
+  }
+}

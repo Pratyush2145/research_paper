@@ -1,0 +1,28 @@
+{
+  "random_state": 42,
+  "n_features": 68,
+  "background_sample": {
+    "source": "LegitPhish Training Split",
+    "n_records": 1000,
+    "n_unique_domains": 871,
+    "phishing_count": 637,
+    "legitimate_count": 363,
+    "phishing_percentage": 63.7
+  },
+  "internal_explanation_sample": {
+    "source": "LegitPhish Test Split (Domain-Disjoint)",
+    "n_records": 1000,
+    "n_unique_domains": 861,
+    "phishing_count": 622,
+    "legitimate_count": 378,
+    "phishing_percentage": 62.2
+  },
+  "external_explanation_sample": {
+    "source": "PhiUSIIL Entire-Primary-Dataset-Disjoint",
+    "n_records": 1000,
+    "n_unique_domains": 964,
+    "phishing_count": 430,
+    "legitimate_count": 570,
+    "phishing_percentage": 43.0
+  }
+}
